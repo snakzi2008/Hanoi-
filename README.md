@@ -15,5 +15,5 @@ hanoi_moteur.py : fichier secondaire ( mais essentielle ) au jeu il possède :
 - test_pile() qui test le moteur se sont les assertions pour verifier si le moteur est fonctionelle. 
 
 le fichier .gitignore est inutile, on peut l'enlever ( il est la car j'ai voulu utiliser github pour essayer avec un projet )
- [text](https://github.com/snakzi2008/Hanoi-NSI.git) 
+ [ici vous pouvez voir le projet ](https://github.com/snakzi2008/Hanoi-NSI.git) 
  
