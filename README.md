@@ -4,8 +4,9 @@ Ce projet est décomposé en 4 Parties dans 2 fichiers : le moteur et les tests 
 Pour lancer le Jeu il faut lancer Hanoi.py 
 
 Hanoi.py : fichier principale du programe il possède :
--la classe TourDeHanoi qui initialise la majorité des données pour réaliser le Jeu 
--le main() qui crée la fenetre nommée fen et aussi demande le nombre de disque demander pour la résolution ( avec le calcul du nombre d'étape )
+
+- la classe TourDeHanoi qui initialise la majorité des données pour réaliser le Jeu
+- le main() qui crée la fenetre nommée fen et aussi demande le nombre de disque demander pour la résolution ( avec le calcul du nombre d'étape )
 - puis les lignes test_pile() lance les assertion et test et main() le jeu
 
 hanoi_moteur.py : fichier secondaire ( mais essentielle ) au jeu il possède : 
