@@ -134,12 +134,12 @@ def main():
         return
 
     nb_operations = 2**nb_disques - 1 # Le probleme de ce jeu ce resoud avec cette suite de math et on la calucl pour l'afficher 
-    messagebox.showinfo("Information", f" ça va faire : {nb_operations} operations pour finir ça.") # et la on l'affiche 
+    messagebox.showinfo("Information", f" ça va faire : {nb_operations} operations pour finir avec ce nombre de disques.") # et la on l'affiche 
 
     hanoi = TourDeHanoi(nb_disques, canvas)
     hanoi.resoudre(nb_disques, 0, 2, 1)
     fen.mainloop()
 
-#if __name__ == "__main__":
-test_pile()
-main()
+if __name__ == "__main__":
+    test_pile()
+    main()
